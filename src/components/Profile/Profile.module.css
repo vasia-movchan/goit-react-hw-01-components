@@ -32,7 +32,6 @@
   padding: 16px;
   display: flex;
   flex-direction: column;
-  /* width: calc(100% / 3); */
   flex-basis: calc(100% / 3);
 }
 
