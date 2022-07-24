@@ -1,0 +1,37 @@
+.transactionHistory {
+  border-collapse: collapse;
+  border: 1px solid black;
+  min-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .transactionHistory {
+    width: 520px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .transactionHistory {
+    width: 720px;
+  }
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+thead {
+  text-transform: uppercase;
+  color: white;
+  background-color: darkorchid;
+}
+tbody tr:nth-child(even) {
+  background-color: deepskyblue;
+}
+
+tbody td {
+  text-transform: capitalize;
+}
