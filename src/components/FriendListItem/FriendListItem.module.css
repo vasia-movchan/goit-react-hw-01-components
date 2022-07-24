@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  margin-top: 12px;
+  min-width: 240px;
+  background-color: aqua;
+  border-radius: 5px;
+  box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.73);
+}
+
+.item span {
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.isOffline {
+  background-color: red;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+}
