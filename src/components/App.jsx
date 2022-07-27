@@ -29,7 +29,7 @@ export const App = () => {
         stats={user.stats}
       />
 
-      <Statistics title="Upload stats" data={stat} />
+      <Statistics title="upload stats" data={stat} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
